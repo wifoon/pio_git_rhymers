@@ -1,5 +1,6 @@
 package edu.kis.vh.nursery;
 
+// TODO: Sprawdzić i poprawic wydajność operacji na dwóch stosach przy dużej liczbie elementów.
 public class FIFORhymer extends DefaultCountingOutRhymer {
 
     private final DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
